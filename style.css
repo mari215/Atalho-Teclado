@@ -1,0 +1,85 @@
+body {
+    background-color: #f8edeb; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    background-color: #ff4d6d;
+    color: #fff;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column; /* Alterado para uma direção de coluna */
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 10px; /* Adicionado um espaço inferior ao título */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Aumentado um pouco a altura */
+    margin-top: 20px; /* Adicionado um espaço superior */
+}
+
+.img-container img {
+    max-width: 400px; /* Largura máxima desejada */
+    max-height: 400px; /* Altura máxima desejada */
+}
+
+.bloco {
+    background-color: #ffe3e0; /* Cor de fundo do bloco */
+    color: #000; /* Cor do texto */
+    width: 300px; /* Largura do bloco */
+    height: 150px; /* Altura do bloco */
+    position: absolute; /* Posicionamento absoluto */
+    top: 250px; /* Distância do topo */
+    left: 50px; /* Distância da esquerda */
+    border: 3px solid #ffccd5; /* Borda */
+    padding: 7px; /* Espaçamento interno */
+    border-radius: 7px; /* Adicionando bordas arredondadas */
+}
+
+#corpo {
+    text-align: center; /* Alinha o texto ao centro */
+    width: 60%; /* Define a largura da div */
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    line-height: 1.5; /* Define o espaçamento entre as linhas */
+    margin-top: 20px;
+} 
+
+footer {
+    background-color: #ff4d6d;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#mensagem {
+    width: 50%;
+    height: 30px;
+}
